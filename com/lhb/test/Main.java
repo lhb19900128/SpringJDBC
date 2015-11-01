@@ -38,9 +38,9 @@ public class Main {
                 .getBean("personService");
 
         Person person = new Person();
-        person.setName("平小蕾");
-        person.setAge(23);
-        person.setSex("不男不女");
+        person.setName("超级天才刘小波");
+        person.setAge(25);
+        person.setSex("男");
 //
 //        // 保存一条记录
         personService.save(person);
